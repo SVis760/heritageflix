@@ -19,6 +19,7 @@ export const useQueriesStore = defineStore('queries', () => {
     const query = createQuery(categoryQuery, {
       "_LIMIT_": limit.toString()
     });
+    console.log("Constructed Query:", query); // Logging the constructed query
     return $fetch(apiUrl, {
       method: 'POST',
       body: {
@@ -33,7 +34,7 @@ export const useQueriesStore = defineStore('queries', () => {
       "_OFFSET_": (page * limit).toString(),
       "_CATEGORYID_": categoryId
     });
-
+    console.log("Constructed Query:", query); // Logging the constructed query
     return $fetch(apiUrl, {
       method: 'POST',
       body: {

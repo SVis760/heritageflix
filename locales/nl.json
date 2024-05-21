@@ -1,8 +1,9 @@
 {
   "dateCreated": "Jaar",
   "imageLicenseURI": "Licentie",
-  "creators": "Makers",
+  "creators": "Maker",
   "contentLocationURIs": "Plek",
   "provinceURI": "Provincie",
-  "publisherURI": "Publisher"
+  "publisherURI": "Uitgever",
+  "stijlperiode": "Stijlperiode"
 }
